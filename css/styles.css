@@ -1,0 +1,226 @@
+:root {
+  --main-text-cl: #757575;
+  --title-cl: #212121;
+  --accent-cl: #2196f3;
+  --logo-black-cl: #000000;
+
+  --main-bg-cl: #ffffff;
+  --alt-bg-cl: #f5f4fa;
+  --dark-bg-text-cl: #ffffff;
+  --hero-footer-bg-cl: #2f303a;
+
+  --main-font: 'Roboto', sans-serif;
+  --alt-font: 'Raleway', sans-serif;
+}
+
+body {
+  font-family: var(--main-font);
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: var(--main-text-cl);
+}
+
+.link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.link:hover,
+.link:focus {
+  color: var(--accent-cl);
+}
+
+.list {
+  list-style: none;
+}
+
+.address {
+  font-style: inherit;
+}
+
+.hero {
+  background-color: var(--hero-footer-bg-cl);
+}
+
+/* Logo */
+
+.logo {
+  font-family: var(--alt-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  color: var(--logo-black-cl);
+}
+
+.logo-accent {
+  color: var(--accent-cl);
+}
+
+.logo:hover,
+.logo:focus {
+  color: var(--logo-black-cl);
+}
+
+.logo-footer,
+.logo-footer:hover,
+.logo-footer:focus {
+  color: var(--dark-bg-text-cl);
+}
+
+/* Titles */
+
+.title {
+  color: var(--title-cl);
+}
+
+.page-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  text-align: center;
+  color: var(--dark-bg-text-cl);
+}
+
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.advantages-title {
+  font-size: inherit;
+  font-weight: 700;
+  line-height: 1.1;
+  text-transform: uppercase;
+}
+
+/* Main navigation */
+
+.site-nav {
+  font-weight: 500;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+  color: var(--title-cl);
+}
+
+.site-nav-contacts {
+  color: inherit;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  line-height: 1.1;
+}
+
+.site-nav .link.current {
+  color: var(--accent-cl);
+}
+
+/* Hero section */
+
+.hero-button {
+  width: 200px;
+  height: 50px;
+  background: var(--accent-cl);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  color: var(--dark-bg-text-cl);
+}
+
+.hero-button-text {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--dark-bg-text-cl);
+}
+
+/* Team */
+
+.team-item {
+  text-align: center;
+}
+
+.team-names {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+}
+
+.team-position {
+  font-size: 16px;
+  line-height: 1.2;
+}
+
+/* Portfolio Page */
+
+/* Works filter */
+
+.works-filter {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  color: var(--title-cl);
+  background-color: var(--alt-bg-cl);
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+}
+
+.works-filter:hover,
+.works-filter:focus {
+  background-color: var(--accent-cl);
+  color: var(--dark-bg-text-cl);
+}
+
+/* Works description */
+
+.works-desc {
+  font-size: 16px;
+  line-height: 1.9;
+}
+
+.works-item:hover,
+.works-item:focus {
+  color: var(--main-text-cl);
+}
+
+/* Works */
+
+.works-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+/* Visually hidden */
+
+.visually-hidden {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
+}
+
+/* Footer */
+
+.footer {
+  background-color: var(--hero-footer-bg-cl);
+}
+
+.footer-address-text {
+  color: var(--dark-bg-text-cl);
+}
+
+.footer-contacts {
+  color: rgba(255, 255, 255, 0.6);
+}
